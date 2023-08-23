@@ -1,0 +1,9 @@
+.bi-whatsapp,.bi-facebook{
+  color: rgb(87, 87, 87);
+  transition: .2s;
+}
+  .bi-whatsapp:hover,.bi-facebook:hover{
+    color: rgb(255, 230, 0);
+  }
+  /* Add any other custom styling for the footer here */
+  
