@@ -165,7 +165,7 @@ const LocationSelector = () => {
     <div style={{ marginTop: 20 }}>
       <Form.Group controlId="locationSelect">
         <Form.Label><i class="bi bi-geo-alt-fill"></i> Location</Form.Label>
-        <Form.Control as="select">
+        <Form.Control as="select" style={{boxShadow:"none"}}>
           {districtOptions.map((district) => (
             <option key={district.value} value={district.value}>
               {district.label}

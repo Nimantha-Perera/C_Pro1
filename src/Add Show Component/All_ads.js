@@ -26,7 +26,7 @@ const All_ads = () => {
           <Col md={6}>
             <Row>
             <SearchBar />
-              <Img_Slider />
+              {/* <Img_Slider /> */}
               
               <Col>
                 <LocationSelector />

@@ -2,6 +2,7 @@ import React, { useState } from "react";
 import { Modal, Form, Button } from "react-bootstrap";
 import "./SignIn.css";
 import CreateAc from "../Create Account Component/CreateAc";
+import signInImage from "../SVG/Computer login-cuate.svg";
 
 const SignIn = ({ show, handleClose }) => {
   const [username, setUsername] = useState("");
@@ -44,10 +45,11 @@ const SignIn = ({ show, handleClose }) => {
   return (
     <>
       <Modal show={show && !showCreateAc} onHide={handleClose} centered>
-        <Modal.Header closeButton>
-          <Modal.Title>Sign In</Modal.Title>
-        </Modal.Header>
+      
         <Modal.Body>
+        <div className="text-center">
+            <img src={signInImage} alt="Sign In" style={{ maxWidth: "50%" }} />
+          </div>
           <Form onSubmit={handleSignInSubmit} style={{marginTop:20}}>
             <Form.Group controlId="formBasicUsername">
               <Form.Label style={{ fontSize: 13, marginLeft: 10 }}>
@@ -112,7 +114,7 @@ const SignIn = ({ show, handleClose }) => {
             </Button>
           </Form>
 
-          <div className="mt-4 text-center">Or</div>
+          <div className="mt-4 text-center" style={{fontSize:10}}>Or</div>
         </Modal.Body>
         <Modal.Body>
           {/* Your sign-in form */}

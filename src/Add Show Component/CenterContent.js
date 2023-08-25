@@ -6,6 +6,7 @@ import animationData from '../Lottie_animations/animation_ll9dwv4j.json';
 export const adsData = [
   {
     adId: 1,
+    seller:"Nimantha",
     title: "Samsung Galaxy J1",
     price: '10000',
     location: "Kandy",
@@ -13,6 +14,7 @@ export const adsData = [
   },
   {
     adId: 2,
+    seller:"Pasindu",
     title: "iPhone 12",
     price: '75000',
     location: "Colombo",
@@ -20,6 +22,7 @@ export const adsData = [
   },
   {
     adId: 3,
+    seller:"Sanjana",
     title: "Sony Bravia 55\" TV",
     price: '55000',
     location: "Galle",
@@ -27,6 +30,7 @@ export const adsData = [
   },
   {
     adId: 4,
+    seller:"Asitha",
     title: "Toyota Corolla 2015",
     price: '2200000',
     location: "Kurunegala",
@@ -34,6 +38,7 @@ export const adsData = [
   },
   {
     adId: 5,
+    seller:"Ishan",
     title: "Dell Inspiron Laptop",
     price: '45000',
     location: "Negombo",
