@@ -1,4 +1,5 @@
 {
+  "homepage": "http://Nimantha-Perera.github.io/C_Pro1",
   "name": "client_pro1",
   "version": "0.1.0",
   "private": true,
@@ -29,7 +30,7 @@
     "slick-carousel": "^1.8.1",
     "web-vitals": "^2.1.4"
   },
-  "homepage": "http://proje.io/c_pro1",
+
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
